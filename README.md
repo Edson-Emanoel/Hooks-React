@@ -1,45 +1,57 @@
 ## Tipos de Hook
 
-*1. useState*
+**1. useState**
+   Obj: Na maioria das vezes serve gerenciar valores, seja consultando os valores e/ou alterando os valores;
+   > Podemos também usar para re-renderizar componentes, ou seja, mudar valores de propriedades ou estados.
+   
+   Sintaxe:
+   ````
+      import { useState } from 'react'
+
+      const [ name, setName ] = useState("");
+   ````
+
+   > [!CAUTION]
+   > Não esqueça de importar o Hook
+
+**2. useReducer**
+   Obj: Realizar algo quanto há alguma alteração no DOM(Html, Xml ou Svg) 
+
 ````
 ````
 
-*2. useEffect*
+**3. useEffect**
+```` 
+````
+
+**4. useContext**
 ````
 ````
 
-*3. useContext*
+**5. useCallback**
+````  '
+````
+
+**6. useMemo**
 ````
 ````
 
-*4. useReducer*
+**7. useRef**
 ````
 ````
 
-*5. useCallback*
+**8. useImperativeHandle**
 ````
 ````
 
-*6. useMemo*
+**9. useLayoutEffect**
 ````
 ````
 
-*7. useRef*
+**10. useDebugValue**
 ````
 ````
 
-*8. useImperativeHandle*
-````
-````
-
-*9. useLayoutEffect*
-````
-````
-
-*10. useDebugValue*
-````
-````
-
-*11. Custom Hook*
+**11. Custom Hook**
 ````
 ````
